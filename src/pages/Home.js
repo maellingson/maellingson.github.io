@@ -4,7 +4,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
-const About = () => (
+const Home = () => (
   <div>
     <Jumbotron backgroundImage="https://i.imgur.com/qkdpN.jpg">
       <h1>Marissa Ellingson's Professional Portfolio</h1>
@@ -13,7 +13,7 @@ const About = () => (
     <Container style={{ marginTop: 30 }}>
       <Row>
         <Col size="md-12">
-          <h1>Welcome To Pupster!</h1>
+          <h1>Marissa Ellingson Portfolio</h1>
         </Col>
       </Row>
       <Row>
@@ -38,4 +38,4 @@ const About = () => (
   </div>
 );
 
-export default About;
+export default Home;
