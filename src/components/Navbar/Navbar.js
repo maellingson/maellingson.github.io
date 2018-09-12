@@ -4,9 +4,6 @@ import "./Navbar.css";
 
 const Navbar = props => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <Link className="navbar-brand" to="/">
-      Marissa Ellingson's Portfolio
-    </Link>
     <div>
       <ul className="navbar-nav">
         <li
