@@ -6,30 +6,19 @@ import Col from "../components/Col";
 
 const Home = () => (
   <div>
-    <Jumbotron backgroundImage="https://i.imgur.com/qkdpN.jpg">
-      <h1>Marissa Ellingson's Professional Portfolio</h1>
-      <h2>Full Stack Web Developer</h2>
+    <Jumbotron backgroundImage="https://images.pexels.com/photos/433313/pexels-photo-433313.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
     </Jumbotron>
     <Container style={{ marginTop: 30 }}>
       <Row>
         <Col size="md-12">
-          <h1>Marissa Ellingson Portfolio</h1>
+          <h1>Marissa Ellingson</h1>
+          <h3>Full Stack Web Developer</h3> 
         </Col>
       </Row>
       <Row>
         <Col size="md-12">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
-            consequat mauris ullamcorper eu. Orci varius natoque penatibus et magnis dis parturient
-            montes, nascetur ridiculus mus. Pellentesque et dui id justo finibus sollicitudin at et
-            metus. Ut feugiat tellus nec metus commodo, sed suscipit nisi gravida. Duis eget
-            vestibulum quam, ut porttitor sem. Donec sagittis mi sollicitudin turpis semper, et
-            interdum risus lobortis. Vestibulum suscipit nunc non egestas tristique. Proin hendrerit
-            efficitur malesuada. Mauris lorem urna, sodales accumsan quam non, tristique tempor
-            erat. Nullam non sem facilisis, tempus tortor sit amet, volutpat nisl. Ut et turpis non
-            nunc maximus mollis a vitae tortor. Pellentesque mattis risus ac quam laoreet cursus.
-            Praesent suscipit orci neque, vestibulum tincidunt augue tincidunt non. Duis consequat
-            mattis tortor vitae mattis.
+          I am a full stack developer with demonstrated experience in the software industry, having worked in startups and established software companies. With a certification from the University of Minnesota's Coding Bootcamp, a Masters in Scientific and Technical Communication, and a BA in English and Art History, I bring a unique set of skills and experience to any project.
           </p>
 
         </Col>

@@ -14,7 +14,9 @@ const Portfolio = () => (
       </Row>
       <Row>
         <Col size="md-6">
-        <PortfolioItem>
+        <PortfolioItem backgroundImage="https://images.pexels.com/photos/433313/pexels-photo-433313.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+        <h1> Test</h1>
+
 
         </PortfolioItem>
 
