@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Jumbotron from "../components/Jumbotron";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import PortfolioItem from "../components/PortfolioItem";
 
 const Portfolio = () => (
     <div>
@@ -13,12 +13,17 @@ const Portfolio = () => (
         </Col>
       </Row>
       <Row>
-        <Col size="md-12">
-          <p>
-Portfolio items go here
-          </p>
+        <Col size="md-6">
+        <PortfolioItem>
+
+        </PortfolioItem>
 
         </Col>
+
+      <Col size="md-6">
+      <PortfolioItem>
+        </PortfolioItem>
+      </Col>
       </Row>
     </Container>
   </div>
