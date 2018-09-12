@@ -4,13 +4,11 @@ import "./PortfolioItem.css";
 const PortfolioItem = props => (
     <div
         className="portfolioItem"
-        style={{
-            backgroundImage: props.image ? `url(${props.image})` : "none"
-        }}
-    >
-        {!props.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
+        style={{backgroundImage: `url(${props.backgroundImage})`}}>
+        {props.children}
     </div>
-)
+
+);
 
 
 export default PortfolioItem;

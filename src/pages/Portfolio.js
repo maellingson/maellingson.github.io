@@ -9,21 +9,48 @@ const Portfolio = () => (
     <Container style={{ marginTop: 30 }}>
       <Row>
         <Col size="md-12">
-          <h1>Marissa Ellingson's Portfolio</h1>
+          <h1>Portfolio</h1>
         </Col>
       </Row>
       <Row>
         <Col size="md-6">
-        <PortfolioItem backgroundImage="https://images.pexels.com/photos/433313/pexels-photo-433313.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
-        <h1> Test</h1>
-
-
+        <PortfolioItem backgroundImage="https://images.pexels.com/photos/884453/pexels-photo-884453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+        <h1>Frankly</h1>
         </PortfolioItem>
 
         </Col>
 
       <Col size="md-6">
-      <PortfolioItem>
+      <PortfolioItem backgroundImage="https://images.pexels.com/photos/884453/pexels-photo-884453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+        <h1>White Board Studio</h1>
+        </PortfolioItem>
+      </Col>
+      </Row>
+      <Row>
+        <Col size="md-6">
+        <PortfolioItem backgroundImage="https://images.pexels.com/photos/884453/pexels-photo-884453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+        <h1>Frankly</h1>
+        </PortfolioItem>
+
+        </Col>
+
+      <Col size="md-6">
+      <PortfolioItem backgroundImage="https://images.pexels.com/photos/884453/pexels-photo-884453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+        <h1>White Board Studio</h1>
+        </PortfolioItem>
+      </Col>
+      </Row>
+      <Row>
+        <Col size="md-6">
+        <PortfolioItem backgroundImage="https://images.pexels.com/photos/884453/pexels-photo-884453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+        <h1>Frankly</h1>
+        </PortfolioItem>
+
+        </Col>
+
+      <Col size="md-6">
+      <PortfolioItem backgroundImage="https://images.pexels.com/photos/884453/pexels-photo-884453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+        <h1>White Board Studio</h1>
         </PortfolioItem>
       </Col>
       </Row>
