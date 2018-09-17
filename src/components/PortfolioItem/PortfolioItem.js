@@ -3,7 +3,7 @@ import "./PortfolioItem.css";
 
 const PortfolioItem = props => (
     <div
-        className="portfolioItem"
+        className="PortfolioItem"
         style={{backgroundImage: `url(${props.backgroundImage})`}}>
         {props.children}
     </div>

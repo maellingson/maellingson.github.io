@@ -12,7 +12,7 @@ const Home = () => (
         </Col>
     <Col size="md-8">
           <h1 style={{ textAlign: 'center'}}>Marissa Ellingson</h1>
-          <h5 style={{ textAlign: 'center' }}>Full Stack Web Developer</h5> 
+          <h5 style={{ textAlign: 'center' }}>Full Stack Web Developer | Technical Writer</h5> 
         </Col>
         <Col size="md-2">
         </Col>

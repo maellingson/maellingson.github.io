@@ -3,6 +3,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import PortfolioItem from "../components/PortfolioItem";
+import StrangerFriends from "../assets/strangerfriends.png"
 
 const Portfolio = () => (
   <div>
@@ -40,7 +41,7 @@ const Portfolio = () => (
         </Col>
 
         <Col size="md-6">
-        <PortfolioItem backgroundImage="https://images.pexels.com/photos/884453/pexels-photo-884453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+        <PortfolioItem backgroundImage={StrangerFriends}>
             <a href="https://strangerfriends.herokuapp.com/"><h1>Stranger Friends</h1></a>
             <a href="https://github.com/maellingson/FriendFinder">GitHub Code Repository</a>
             <p>A Friend Finder game based on Stranger Things. Find a friend to explore the Upside Down!</p>

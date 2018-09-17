@@ -1,7 +1,10 @@
-nav.navbar.navbar-default {
-  margin-bottom: 0;
+.navbar{
+  font-family: 'Carrois Gothic', sans-serif;
 }
 
-nav.nav-link{
+
+
+nav.navbar.navbar-default {
+  margin-bottom: 0;
   font-family: 'Carrois Gothic', sans-serif;
 }

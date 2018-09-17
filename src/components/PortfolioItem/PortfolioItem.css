@@ -1,7 +1,12 @@
-.PortfolioItem {
-    min-height: 600px;
-    padding-bottom: 100px;
-    text-align: center;
-  }
+.PortfolioItem{
+  height: 200px;
+  padding: 20px;
+  margin-top: 20px;
+  border: 3px solid black;
+}
 
-  
+.PortfolioItem.backgroundImage{
+  height: 200px
+}
+
+
