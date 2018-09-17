@@ -8,7 +8,7 @@ const Resume = () => (
     <Container style={{ marginTop: 30 }}>
       <Row>
         <Col size="md-12">
-          <h1>Marissa Ellingson's Portfolio</h1>
+          <h1>Resume</h1>
         </Col>
       </Row>
       <Row>

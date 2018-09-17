@@ -1,12 +1,8 @@
 .PortfolioItem{
-  height: 200px;
+  height: 300px;
   padding: 20px;
   margin-top: 20px;
   border: 3px solid black;
+  text-align: center;
 }
-
-.PortfolioItem.backgroundImage{
-  height: 200px
-}
-
 

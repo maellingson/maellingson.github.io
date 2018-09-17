@@ -18,7 +18,7 @@ const Portfolio = () => (
           <PortfolioItem backgroundImage="https://images.pexels.com/photos/884453/pexels-photo-884453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
             <a href="https://violetproject.herokuapp.com/index.html/"><h1>Frankly</h1></a>
             <a href="https://github.com/maellingson/Frankly">GitHub Code Repository</a>
-            <p>An app that uses the IBM Watson Tone Analyzer and TwinWord to detect overall sentiments and corporate jargon in texts.</p>
+            <p>An app that uses the IBM Watson Tone Analyzer and TwinWord APIs to detect overall sentiments and corporate jargon in texts.</p>
           </PortfolioItem>
         </Col>
 
