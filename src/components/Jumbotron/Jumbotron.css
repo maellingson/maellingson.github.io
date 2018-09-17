@@ -1,5 +1,5 @@
 .jumbotron {
-  height: 250px;
+  height: 100px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -20,10 +20,6 @@
 .jumbotron * {
   position: relative;
   z-index: 2;
-}
-
-.jumbotron h1, .jumbotron h2 {
-  color: white;
 }
 
 .jumbotron h1 {

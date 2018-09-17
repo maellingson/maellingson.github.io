@@ -1,7 +1,8 @@
 .footer {
-  min-height: 100px;
+  min-height: 50px;
   background:lightcyan;
   position: relative;
+  font-family: 'Carrois Gothic', sans-serif;
 }
 
 .footer span {
@@ -12,4 +13,5 @@
   padding: 3px;
   background: cornflowerblue;
   text-align: center;
+  height: 40px;
 }

@@ -6,16 +6,24 @@ import Col from "../components/Col";
 
 const Home = () => (
   <div>
+        <Container>
+        <Row>
+    <Col size="md-2">
+        </Col>
+    <Col size="md-8">
+          <h1 style={{ textAlign: 'center'}}>Marissa Ellingson</h1>
+          <h5 style={{ textAlign: 'center' }}>Full Stack Web Developer</h5> 
+        </Col>
+        <Col size="md-2">
+        </Col>
+    </Row>
+        
+        </Container>
+
     <Jumbotron backgroundImage="https://images.pexels.com/photos/249798/pexels-photo-249798.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
     </Jumbotron>
     <Container style={{ marginTop: 30 }}>
       <Row>
-      <Col size="md-2">
-        </Col>
-        <Col size="md-8">
-          <h1>Marissa Ellingson</h1>
-          <h3>Full Stack Web Developer</h3> 
-        </Col>
         <br></br>
       </Row>
       <Row>
