@@ -13,7 +13,7 @@ const Home = () => (
         <Col size="md-2">
         </Col>
         <Col size="md-8">
-          <h1 style={{ textAlign: 'center', marginTop: 40,}}>Marissa Ellingson</h1>
+          <h1 style={{ textAlign: 'center', marginTop: 40}}><strong>Marissa Ellingson</strong></h1>
             <h5 style={{ textAlign: 'center' }}>Full Stack Web Developer | Technical Writer</h5>
         </Col>
         <Col size="md-2">
@@ -35,6 +35,28 @@ const Home = () => (
           <p>
             I am a full stack developer with demonstrated experience in the software industry, having worked in startups and established software companies. With a certification from the University of Minnesota's Coding Bootcamp, a Masters in Scientific and Technical Communication, and a BA in English and Art History, I bring a unique set of skills and experience to any project.
           </p>
+          <br>
+          </br>
+          <Row>
+            <Col size="md-3">
+            </Col>
+            <Col size="md-6">
+            <h2 style={{ marginTop: 20, marginBottom: 40, textAlign: 'center'}}>Technical Skills</h2>
+          <ul style={{fontSize: 25}}>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>mySQL</li>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+            
+            </Col>
+          </Row>
+    
+
+    
 
         </Col>
       </Row>

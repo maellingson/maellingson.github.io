@@ -26,14 +26,17 @@ class Resume extends Component {
         </Col>
         <Col size="md-8">
         <div style={{textAlign: 'center', justifyContent: 'center'}}>
-        <h1>Resume</h1>
+        <h1><strong>Resume</strong></h1>
         <Document
           file={myResume}
           onLoadSuccess={this.onDocumentLoad}
         >
           <Page pageNumber={pageNumber} />
         </Document>
+
+
         <p>Page {pageNumber} of {numPages}</p>
+
         <button> 
         <a href={myResume} download="MarissaEllingson_Resume">Download Resume</a></button>
         </div>

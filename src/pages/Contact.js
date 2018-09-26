@@ -5,16 +5,20 @@ import Col from "../components/Col";
 
 const Contact = () => (
     <div>
-    <Container style={{ marginTop: 40 }}>
+    <Container>
       <Row>
-        <Col size="md-12">
-          <h1 style={{textAlign: 'center', justifyContent: 'center'}}>Contact</h1>
+        <Col size="md-2">
+        </Col>
+        <Col size="md-8">
+          <h1 style={{marginTop: 40, textAlign: 'center', justifyContent: 'center'}}><strong>Contact</strong></h1>
         </Col>
       </Row>
       <Row>
-        <Col size="md-12">
+        <Col size="md-2">
+        </Col>
+        <Col size="md-8">
           <p>
-Contact info here
+test test test
           </p>
 
         </Col>

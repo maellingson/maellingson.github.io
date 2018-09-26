@@ -10,7 +10,7 @@ const Portfolio = () => (
     <Container style={{ marginTop: 40 }}>
       <Row>
         <Col size="md-12">
-          <h1 style={{textAlign: 'center', justifyContent: 'center'}}>Portfolio</h1>
+          <h1 style={{textAlign: 'center', justifyContent: 'center'}}><strong>Portfolio</strong></h1>
         </Col>
       </Row>
       <Row>
