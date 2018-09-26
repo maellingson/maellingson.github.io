@@ -3,6 +3,7 @@ import Jumbotron from "../components/Jumbotron";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import MainImg from "../assets/keyboard.jpg"
 
 
 const Home = () => (
@@ -12,7 +13,7 @@ const Home = () => (
         <Col size="md-2">
         </Col>
         <Col size="md-8">
-          <h1 style={{ textAlign: 'center'}}>Marissa Ellingson</h1>
+          <h1 style={{ textAlign: 'center', marginTop: 40,}}>Marissa Ellingson</h1>
             <h5 style={{ textAlign: 'center' }}>Full Stack Web Developer | Technical Writer</h5>
         </Col>
         <Col size="md-2">
@@ -21,7 +22,7 @@ const Home = () => (
 
     </Container>
 
-    <Jumbotron backgroundImage="https://images.pexels.com/photos/249798/pexels-photo-249798.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+    <Jumbotron backgroundImage={MainImg}>
     </Jumbotron>
     <Container style={{ marginTop: 30 }}>
       <Row>

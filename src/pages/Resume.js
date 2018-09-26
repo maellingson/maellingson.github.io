@@ -20,7 +20,7 @@ class Resume extends Component {
  
     return (
       <div>
-            <Container style={{ marginTop: 30 }}>
+            <Container style={{ marginTop: 40 }}>
             <Row>
         <Col size="md-2">
         </Col>

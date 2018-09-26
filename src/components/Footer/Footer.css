@@ -1,5 +1,5 @@
 .footer {
-  min-height: 50px;
+  min-height: 90px;
   background: lightslategray;
   position: relative;
   font-family: 'Carrois Gothic', sans-serif;
@@ -13,5 +13,5 @@
   padding: 3px;
   background: #33CCCC;
   text-align: center;
-  height: 40px;
+  height: 60px;
 }
