@@ -16,9 +16,11 @@ const Portfolio = () => (
       <Row>
         <Col size="md-6">
           <PortfolioItem backgroundImage="https://images.pexels.com/photos/884453/pexels-photo-884453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+          <div>
             <a href="https://violetproject.herokuapp.com/index.html/"><h1>Frankly</h1></a>
             <a href="https://github.com/maellingson/Frankly">GitHub Code Repository</a>
             <p>An app that uses the IBM Watson Tone Analyzer and TwinWord APIs to detect overall sentiments and corporate jargon in texts.</p>
+            </div>
           </PortfolioItem>
         </Col>
 
