@@ -43,9 +43,10 @@ const Home = () => (
             <Col size="md-6">
             <h2 style={{ marginTop: 20, marginBottom: 40, textAlign: 'center'}}>Technical Skills</h2>
           <ul style={{fontSize: 25}}>
+            <li>MongoDB</li>
+            <li>Express.js</li>
             <li>React.js</li>
             <li>Node.js</li>
-            <li>MongoDB</li>
             <li>mySQL</li>
             <li>Javascript</li>
             <li>HTML</li>

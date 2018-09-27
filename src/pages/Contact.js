@@ -3,6 +3,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
+
 const Contact = () => (
     <div>
     <Container>
@@ -18,7 +19,9 @@ const Contact = () => (
         </Col>
         <Col size="md-8">
           <p>
-test test test
+            Github: 
+            LinkedIn: 
+            Email: 
           </p>
 
         </Col>

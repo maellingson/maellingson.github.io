@@ -9,6 +9,8 @@ class Resume extends Component {
   state = {
     numPages: 3,
     pageNumber: 1,
+    pageNumber2: 2,
+    pageNumber3: 3,
   }
  
   onDocumentLoad = ({ numPages }) => {
@@ -16,34 +18,29 @@ class Resume extends Component {
   }
  
   render() {
-    const { pageNumber, numPages } = this.state;
+    const { pageNumber, pageNumber2, pageNumber3, } = this.state;
  
     return (
-      <div>
-            <Container style={{ marginTop: 40 }}>
-            <Row>
+        <Row>
         <Col size="md-2">
         </Col>
         <Col size="md-8">
         <div style={{textAlign: 'center', justifyContent: 'center'}}>
-        <h1><strong>Resume</strong></h1>
-        <Document
+        <h1 style={{ marginTop: 40, }}><strong>Resume</strong></h1>
+        <Document style={{justifyContent:'center'}}
           file={myResume}
           onLoadSuccess={this.onDocumentLoad}
         >
           <Page pageNumber={pageNumber} />
+          <Page pageNumber={pageNumber2} />
+          <Page pageNumber={pageNumber3} />
         </Document>
-
-
-        <p>Page {pageNumber} of {numPages}</p>
-
-        <button> 
+        <button style={{alignContent: 'center'}}> 
         <a href={myResume} download="MarissaEllingson_Resume">Download Resume</a></button>
         </div>
         </Col>
         </Row>
-        </Container>
-      </div>
+   
     );
   }
 }
@@ -51,3 +48,5 @@ class Resume extends Component {
 
 
 export default Resume;
+
+

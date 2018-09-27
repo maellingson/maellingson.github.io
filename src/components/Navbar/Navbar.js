@@ -1,15 +1,16 @@
 import React from "react";
+import Container from "../Container/Container"
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = props => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <div>
-      <ul className="navbar-nav">
+  <nav className="navbar navbar-expand-lg navbar-light bg-light" style= {{display: 'flex', flexDirection: 'row'}}>
+    <div >
+      <ul className="navbar-nav" style={{display: 'flex'}}>
         <li
           className={
             window.location.pathname === "/" ||
-            window.location.pathname === "/home"
+              window.location.pathname === "/home"
               ? "nav-item active"
               : "nav-item"
           }
@@ -51,6 +52,7 @@ const Navbar = props => (
             Contact
           </Link>
         </li>
+        <li className="addthis_inline_follow_toolbox" style={{ right: 'auto'}}></li>
       </ul>
     </div>
   </nav>
