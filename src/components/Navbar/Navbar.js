@@ -6,7 +6,7 @@ import "./Navbar.css";
 const Navbar = props => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light" style= {{display: 'flex', flexDirection: 'row'}}>
     <div >
-      <ul className="navbar-nav" style={{display: 'flex'}}>
+      <ul className="navbar-nav">
         <li
           className={
             window.location.pathname === "/" ||
@@ -52,7 +52,10 @@ const Navbar = props => (
             Contact
           </Link>
         </li>
-        <li className="addthis_inline_follow_toolbox" style={{ right: 'auto'}}></li>
+
+      </ul>
+      <ul>
+      <li className="addthis_inline_follow_toolbox" style={{display: 'flex', marginLeft: 'auto'}}></li>
       </ul>
     </div>
   </nav>
