@@ -3,7 +3,6 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import PortfolioItem from "../components/PortfolioItem";
-import StrangerFriends from "../assets/strangerfriends.png"
 
 const Portfolio = () => (
   <div>
@@ -19,7 +18,9 @@ const Portfolio = () => (
           <div>
             <a href="https://violetproject.herokuapp.com/index.html/"><h2>Frankly</h2></a>
             <a href="https://github.com/maellingson/Frankly">GitHub Code Repository</a>
-            <p>An app that uses the IBM Watson Tone Analyzer and TwinWord APIs to detect overall sentiments and corporate jargon in texts.</p>
+            <p>Franky is a web app that uses the IBM Watson Tone Analyzer and TwinWord APIs to detect overall sentiments and corporate jargon in a block of text. Created for Project 1 for the University of Minnesota’s Coding Bootcamp.<br></br>
+            <br></br>
+            My Contributions: Set up </p>
             </div>
           </PortfolioItem>
         </Col>
@@ -28,7 +29,10 @@ const Portfolio = () => (
         <PortfolioItem backgroundImage="">
             <a href="http://whiteboardstudio.herokuapp.com/"><h2>White Board Studio</h2></a>
             <a href="https://github.com/maellingson/ProjectTwoWhiteboard">GitHub Code Repository</a>
-            <p>A collaborative White Board Studio where you can invite multiple people to draw at once. Options to create public and private studios. The app uses a mySQL database, Canvas, P5.js, and Flexbox.</p>
+            <p>White Board Studio is a collaborative white board app where users can create public or private “studios” and share with others. Multiple users can then “draw” on the white board in real-time. The app uses mySQl, Canvas, P5.js, and Flexbox. Created for Project 2 for the University of Minnesota’s Coding Bootcamp.<br></br>
+            <br></br>
+            My Cont
+            </p>
           </PortfolioItem>
         </Col>
       </Row>

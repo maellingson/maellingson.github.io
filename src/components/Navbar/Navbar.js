@@ -38,7 +38,7 @@ const Navbar = props => (
           }
         >
           <Link to="/resume" className="nav-link">
-            Resume
+            Resumé
           </Link>
         </li>
         <li
