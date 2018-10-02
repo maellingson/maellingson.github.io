@@ -9,7 +9,6 @@ const Navbar = props => (
       <ul className="navbar-nav">
         <li
           className={
-            window.location.pathname === "/" ||
               window.location.pathname === "/home"
               ? "nav-item active"
               : "nav-item"
