@@ -36,11 +36,10 @@ const Home = () => (
             Hello! I’m Marissa Ellingson and I am a full stack developer who recently graduated from the University of Minnesota’s Coding Bootcamp. <br>
             </br>
             <br></br>
-            I have a passion for technology that I developed working in startups and established software companies. In my technical writer and support roles, I enjoyed learning, troubleshooting, listening to user feedback, providing design input, testing new features, and writing end-user and developer documentation.            I have held customer service roles, facilitated workshops, developed excellent troubleshooting skills, and created end-user and developer documentation. In these roles, I learned that I love learning about new technologies, solving problems, and collaborating with others who are as passionate as I am. <br>
+            I have a passion for technology that I developed working in startups and established software companies. I have held customer service roles, facilitated workshops, developed excellent troubleshooting skills, created end-user and developer documentation, provided design input and tested new software features. I love learning about new technologies, solving problems, and collaborating with others who are as passionate as I am.<br>
             </br>
             <br></br>
-            With a drive to learn and a passion for technology, I enrolled in the University of Minnesota’s Coding Bootcamp. I graduated with a foundation in several languages, and a desire to continue expand my knowledge and develop my expertise.
-            </p>
+            I recently continued my journey in the software industry by learning how to code. I enrolled in the University of Minnesota’s Coding Bootcamp and graduated with a foundation in several key coding languages and a drive to continue to learn and develop my skills.</p>
           <br>
           </br>
           <Row>

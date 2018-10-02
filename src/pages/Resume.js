@@ -7,10 +7,9 @@ import myResume from "../assets/Resume_Ellingson.pdf"
 
 class Resume extends Component {
   state = {
-    numPages: 3,
+    numPages: 2,
     pageNumber: 1,
     pageNumber2: 2,
-    pageNumber3: 3,
   }
  
   onDocumentLoad = ({ numPages }) => {
@@ -18,7 +17,7 @@ class Resume extends Component {
   }
  
   render() {
-    const { pageNumber, pageNumber2, pageNumber3, } = this.state;
+    const { pageNumber, pageNumber2, } = this.state;
  
     return (
         <Row>
@@ -33,7 +32,6 @@ class Resume extends Component {
         >
           <Page pageNumber={pageNumber} />
           <Page pageNumber={pageNumber2} />
-          <Page pageNumber={pageNumber3} />
         </Document>
         <button style={{alignContent: 'center'}}> 
         <a href={myResume} download="MarissaEllingson_Resume">Download Resume</a></button>
