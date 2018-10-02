@@ -18,9 +18,9 @@ const Portfolio = () => (
           <div>
             <a href="https://violetproject.herokuapp.com/index.html/"><h2>Frankly</h2></a>
             <a href="https://github.com/maellingson/Frankly">GitHub Code Repository</a>
-            <p>Franky is a web app that uses the IBM Watson Tone Analyzer and TwinWord APIs to detect overall sentiments and corporate jargon in a block of text. Created for Project 1 for the University of Minnesota’s Coding Bootcamp.<br></br>
-            <br></br>
-            My Contributions: Set up </p>
+            <p>Franky is a web app that uses the IBM Watson Tone Analyzer and TwinWord APIs to detect overall sentiments and corporate jargon in a block of text. Created for Project 1 for the University of Minnesota’s Coding Bootcamp.<br></br></p>
+            <p><strong>Technologies: </strong>HTML, CSS, Javascript, APIs</p>
+            <p><strong>My Contributions: </strong>I researched and selected the APIs, set up the APIs to work within the application, tested the APIs, served as Project Manager and created developer documentation.</p>
             </div>
           </PortfolioItem>
         </Col>
@@ -29,10 +29,9 @@ const Portfolio = () => (
         <PortfolioItem backgroundImage="">
             <a href="http://whiteboardstudio.herokuapp.com/"><h2>White Board Studio</h2></a>
             <a href="https://github.com/maellingson/ProjectTwoWhiteboard">GitHub Code Repository</a>
-            <p>White Board Studio is a collaborative white board app where users can create public or private “studios” and share with others. Multiple users can then “draw” on the white board in real-time. The app uses mySQl, Canvas, P5.js, and Flexbox. Created for Project 2 for the University of Minnesota’s Coding Bootcamp.<br></br>
-            <br></br>
-            My Cont
-            </p>
+            <p>White Board Studio is a collaborative drawing web application. Users can make their drawings public or private and share them with others. Many users can draw on the board in real time<br></br></p>
+            <p><strong>Technologies: </strong>Flexbox, Canvas, P5.js, HTML, CSS, Javascript, AddThis</p>
+            <p><strong>My Contributions: </strong>I designed the UI and coded the HTML, CSS and Javascript used for the sliding menu and forms. I researched and implemented the AddThis buttons to easily share boards and track analytics.</p>
           </PortfolioItem>
         </Col>
       </Row>
@@ -41,7 +40,9 @@ const Portfolio = () => (
         <PortfolioItem backgroundImage= "">
             <a href="http://tunedup.herokuapp.com/"><h2>TunedUp</h2></a>
             <a href="https://github.com/maellingson/TunedUp">GitHub Code Repository</a>
-            <p>A social networking site for musicians. Each musician has a profile created using Google authentication and can network with other musicians to make music. This application uses MongoDB to store users and postings.</p>
+            <p>TunedUp is a social networking site for musicians. Each musician creates a profile and can post notices for jam sessions, gigs, etc. The application is not live due to issues with Google Authentication.<br></br></p>
+            <p><strong>Technologies: </strong>Bootstrap, HTML, CSS, Google Authentication, MongoDB, React.js</p>
+            <p><strong>My Contributions: </strong>I set up MongoDB to store user and postings data, ensured that the API routes functioned properly to retrieve and store data, styled the posting layout and added user functionality to postings.</p>
           </PortfolioItem>
 
         </Col>
@@ -50,7 +51,8 @@ const Portfolio = () => (
         <PortfolioItem backgroundImage="">
             <a href="https://strangerfriends.herokuapp.com/"><h2>Stranger Friends</h2></a>
             <a href="https://github.com/maellingson/FriendFinder">GitHub Code Repository</a>
-            <p>A Friend Finder game based on Stranger Things. Find a friend to explore the Upside Down! Answer the questions to match with a Stranger Things character. This app utilizes API requests to GET and POST data.</p>
+            <p>Stranger Friends is a Node.js web application based on ‘Stranger Things.’ Users fill out a survey and based on their answers, are matched with a character.<br></br></p>
+            <p><strong>Technologies: </strong>Node.js, Express, HTML, CSS, Bootstrap, jQuery, APIs</p>
           </PortfolioItem>
         </Col>
       </Row>
@@ -59,7 +61,8 @@ const Portfolio = () => (
         <PortfolioItem backgroundImage="">
             <a href="https://maellingson.github.io/Clicky-Game/"><h2>Clicky Game</h2></a>
             <a href="https://github.com/maellingson/Clicky-Game">GitHub Code Repository</a>
-            <p>A React.js app based on the TV show Bob's Burgers. Only click on character's image once. The images shuffle with each click, if an image is clicked twice, you lose the game.</p>
+            <p>Clicky-Game is a memory game based on ‘Bob’s Burgers.’ Users must click on each character only once to with the game. The placement of the characters shuffles with each click.<br></br></p>
+            <p><strong>Technologies: </strong>React.js, HTML, CSS</p>
           </PortfolioItem>
 
         </Col>
@@ -68,7 +71,8 @@ const Portfolio = () => (
         <PortfolioItem backgroundImage="">
             <h2>BAmazon</h2>
             <a href="https://github.com/maellingson/BAmazon">GitHub Code Repository</a>
-            <p>A command line app that utilizes mySQL database. This app keeps track of item types, inventory and prices.</p>
+            <p>BAmazon is an Amazon-like command line app that keeps track of items, inventory and prices using a mySQL database. Download the code in GitHub to test it out!<br></br></p>
+            <p><strong>Technologies: </strong>mySQL, Command Line</p>
           </PortfolioItem>
         </Col>
       </Row>
