@@ -33,13 +33,13 @@ const Home = () => (
         </Col>
         <Col size="md-8">
           <p>
-            Hello! I’m Marissa Ellingson and I am a full stack developer who recently graduated from the University of Minnesota’s Coding Bootcamp. <br>
+            Hello! I’m Marissa Ellingson and I am a full stack developer who recently graduated from the University of Minnesota Coding Bootcamp. <br>
             </br>
             <br></br>
             I have a passion for technology that I developed working in startups and established software companies. I have held customer service roles, facilitated workshops, developed excellent troubleshooting skills, created end-user and developer documentation, provided design input and tested new software features. I love learning about new technologies, solving problems, and collaborating with others who are as passionate as I am.<br>
             </br>
             <br></br>
-            I recently continued my journey in the software industry by learning how to code. I enrolled in the University of Minnesota’s Coding Bootcamp and graduated with a foundation in several key coding languages and a drive to continue to learn and develop my skills.</p>
+            I recently continued my journey in the software industry by learning how to code. I enrolled in the University of Minnesota Coding Bootcamp and graduated with a foundation in several key coding languages and a drive to continue to learn and develop my skills.</p>
           <br>
           </br>
           <Row>

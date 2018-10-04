@@ -18,7 +18,7 @@ const Portfolio = () => (
           <div>
             <a href="https://violetproject.herokuapp.com/index.html/"><h2>Frankly</h2></a>
             <a href="https://github.com/maellingson/Frankly">GitHub Code Repository</a>
-            <p>Franky is a web app that uses the IBM Watson Tone Analyzer and TwinWord APIs to detect overall sentiments and corporate jargon in a block of text. Created for Project 1 for the University of Minnesota’s Coding Bootcamp.<br></br></p>
+            <p>Franky is a web app that uses the IBM Watson Tone Analyzer and TwinWord APIs to detect overall sentiments and corporate jargon in a block of text.<br></br></p>
             <p><strong>Technologies: </strong>HTML, CSS, Javascript, APIs</p>
             <p><strong>My Contributions: </strong>I researched and selected the APIs, set up the APIs to work within the application, tested the APIs, served as Project Manager and created developer documentation.</p>
             </div>
