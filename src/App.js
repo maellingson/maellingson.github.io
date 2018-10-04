@@ -13,7 +13,8 @@ const App = () => (
     <div>
       <Navbar />
       <Wrapper>
-        <Route exact path="" component={Home} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/home" component={Home} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/resume" component={Resume} />
