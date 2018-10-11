@@ -21,14 +21,14 @@ const Contact = () => (
         </Col>
         <Col size="md-9">
           <p className='clearfix'>
-            <h3>Interested in collaborating on a project? Lets connect!</h3> 
+            <h3>Interested in collaborating on a project? Lets connect! <br></br>Use the links below or the buttons in the navigation bar to get in touch.</h3>
             <br></br>
             <br></br>
             <h4>Connect on LinkedIn:<a href="https://www.linkedin.com/in/marissa-ellingson"> Marissa Ellingson</a></h4>
             <br></br>
             <h4>Check out projects on Github: <a href="https://github.com/maellingson">maellingson</a></h4>
             <br></br>
-            <h4>Send me an email: <a href= "marissa.ellingson@gmail.com">marissa.ellingson@gmail.com</a></h4>
+            <h4>Send me an email: marissa.ellingson@gmail.com</h4>
             
 
           </p>
