@@ -16,9 +16,9 @@ const Portfolio = () => (
         <Col size="md-6">
           <PortfolioItem backgroundImage="">
           <div>
-            <a href="https://violetproject.herokuapp.com/index.html/"><h2>Frankly</h2></a>
+            <a href="https://violetproject.herokuapp.com/index.html"><h2>Frankly</h2></a>
             <a href="https://github.com/maellingson/Frankly">GitHub Code Repository</a>
-            <p>Franky is a web app that uses the IBM Watson Tone Analyzer and TwinWord APIs to detect overall sentiments and corporate jargon in a block of text.<br></br></p>
+            <p>Franky is a web app that uses the IBM Watson Tone Analyzer and TwinWord APIs to detect overall sentiments and corporate jargon in a block of text. Enable CORS for the app to work properly.<br></br></p>
             <p><strong>Technologies: </strong>HTML, CSS, Javascript, APIs</p>
             <p><strong>My Contributions: </strong>I researched and selected the APIs, set up the APIs to work within the application, tested the APIs, served as Project Manager and created developer documentation.</p>
             </div>
@@ -59,7 +59,7 @@ const Portfolio = () => (
       <Row>
         <Col size="md-6">
         <PortfolioItem backgroundImage="">
-            <a href="https://maellingson.github.io/Clicky-Game/"><h2>Clicky Game</h2></a>
+            <a href="https://maellingsonprojects.github.io/Clicky-Game/"><h2>Clicky Game</h2></a>
             <a href="https://github.com/maellingson/Clicky-Game">GitHub Code Repository</a>
             <p>Clicky-Game is a memory game based on ‘Bob’s Burgers.’ Users must click on each character only once to with the game. The placement of the characters shuffles with each click.<br></br></p>
             <p><strong>Technologies: </strong>React.js, HTML, CSS</p>
