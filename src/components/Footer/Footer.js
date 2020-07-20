@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => (
   <footer className="footer">
-    <span> © 2019 Marissa Ellingson</span>
+    <span> © 2020 Marissa Ellingson</span>
   </footer>
 );
 
